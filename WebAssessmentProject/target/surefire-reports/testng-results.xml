@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[<img src="file://C:\BTS Selenium\New folder\WebAssessmentProject\Screenshots\20190927_163140.png" alt=""/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file://C:\BTS Selenium\New folder\WebAssessmentProject\Screenshots\20190927_163143.png" alt=""/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file://C:\BTS Selenium\New folder\WebAssessmentProject\Screenshots\20190927_163147.png" alt=""/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file://C:\BTS Selenium\New folder\WebAssessmentProject\Screenshots\20190927_163149.png" alt=""/>]]>
+    </line>
+    <line>
+      <![CDATA[FName1 is added successfully]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file://C:\BTS Selenium\New folder\WebAssessmentProject\Screenshots\20190927_163152.png" alt=""/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file://C:\BTS Selenium\New folder\WebAssessmentProject\Screenshots\20190927_163154.png" alt=""/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file://C:\BTS Selenium\New folder\WebAssessmentProject\Screenshots\20190927_163156.png" alt=""/>]]>
+    </line>
+    <line>
+      <![CDATA[FName2 is added successfully]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file://C:\BTS Selenium\New folder\WebAssessmentProject\Screenshots\20190927_163158.png" alt=""/>]]>
+    </line>
+    <line>
+      <![CDATA[User Table is displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Web Assessment" duration-ms="36444" started-at="2019-09-27T14:31:23Z" finished-at="2019-09-27T14:32:00Z">
+    <groups>
+    </groups>
+    <test name="AssessmentProject" duration-ms="36444" started-at="2019-09-27T14:31:23Z" finished-at="2019-09-27T14:32:00Z">
+      <class name="module.webAssessment">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:module.webAssessment@7f63425a]" name="testSetUp" is-config="true" duration-ms="16957" started-at="2019-09-27T16:31:23Z" finished-at="2019-09-27T16:31:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src="file://C:\BTS Selenium\New folder\WebAssessmentProject\Screenshots\20190927_163140.png" alt=""/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="addUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module.webAssessment@7f63425a]" name="addUser" duration-ms="9559" started-at="2019-09-27T16:31:40Z" data-provider="data-provider" finished-at="2019-09-27T16:31:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FName1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LName1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pass1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[company AAA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[admin@mail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[082555]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<img src="file://C:\BTS Selenium\New folder\WebAssessmentProject\Screenshots\20190927_163143.png" alt=""/>]]>
+            </line>
+            <line>
+              <![CDATA[<img src="file://C:\BTS Selenium\New folder\WebAssessmentProject\Screenshots\20190927_163147.png" alt=""/>]]>
+            </line>
+            <line>
+              <![CDATA[<img src="file://C:\BTS Selenium\New folder\WebAssessmentProject\Screenshots\20190927_163149.png" alt=""/>]]>
+            </line>
+            <line>
+              <![CDATA[FName1 is added successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addUser -->
+        <test-method status="PASS" signature="addUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module.webAssessment@7f63425a]" name="addUser" duration-ms="6546" started-at="2019-09-27T16:31:50Z" data-provider="data-provider" finished-at="2019-09-27T16:31:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FName2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LName2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pass2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[company BBB]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Customer]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[cusomter@mail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[083444]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<img src="file://C:\BTS Selenium\New folder\WebAssessmentProject\Screenshots\20190927_163152.png" alt=""/>]]>
+            </line>
+            <line>
+              <![CDATA[<img src="file://C:\BTS Selenium\New folder\WebAssessmentProject\Screenshots\20190927_163154.png" alt=""/>]]>
+            </line>
+            <line>
+              <![CDATA[<img src="file://C:\BTS Selenium\New folder\WebAssessmentProject\Screenshots\20190927_163156.png" alt=""/>]]>
+            </line>
+            <line>
+              <![CDATA[FName2 is added successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addUser -->
+        <test-method status="PASS" signature="validateUserTable()[pri:0, instance:module.webAssessment@7f63425a]" name="validateUserTable" duration-ms="1430" started-at="2019-09-27T16:31:56Z" finished-at="2019-09-27T16:31:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src="file://C:\BTS Selenium\New folder\WebAssessmentProject\Screenshots\20190927_163158.png" alt=""/>]]>
+            </line>
+            <line>
+              <![CDATA[User Table is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserTable -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:module.webAssessment@7f63425a]" name="tearDown" is-config="true" duration-ms="1931" started-at="2019-09-27T16:31:58Z" finished-at="2019-09-27T16:32:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- module.webAssessment -->
+    </test> <!-- AssessmentProject -->
+  </suite> <!-- Web Assessment -->
+</testng-results>

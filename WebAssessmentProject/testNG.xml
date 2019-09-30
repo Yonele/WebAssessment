@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web Assessment">
+  <test name="AssessmentProject">
+  
+    <classes>
+      <class name="module.webAssessment"/>
+    </classes>
+  </test>
+</suite>
